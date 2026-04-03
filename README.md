@@ -18,3 +18,6 @@ Python, Pandas, SQLite, yfinance, tableau
 - `notebooks/analyze.py` — metric calculation and scoring
 - `sql/queries.py` — sector-level SQL analysis
 - `notebooks/export.py` — Tableau export
+
+## Dashboard
+[View Tableau Dashboard](https://public.tableau.com/views/SP500FInancialHealthScreener/SP500FinancialHealthScreener)
