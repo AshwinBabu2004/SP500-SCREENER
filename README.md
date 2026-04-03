@@ -7,14 +7,14 @@ Analyzes 50 S&P 500 companies across 8 sectors using Python and SQL.
 - Calculates key metrics: ROE, Debt-to-Equity, Operating Margin, EPS Growth
 - Builds a composite financial health score (0–100) per company
 - Uses SQL to compare performance across sectors
-- Exports results to Excel for Power BI dashboards
+- Exports results to Excel for Tableau dashboards
 
 ## Tech Stack
-Python, Pandas, SQLite, yfinance, Power BI
+Python, Pandas, SQLite, yfinance, tableau
 
 ## Files
 - `notebooks/download_data.py` — data collection
 - `notebooks/clean_data.py` — data cleaning
 - `notebooks/analyze.py` — metric calculation and scoring
 - `sql/queries.py` — sector-level SQL analysis
-- `notebooks/export.py` — Power BI export
+- `notebooks/export.py` — Tableau export
